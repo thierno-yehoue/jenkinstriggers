@@ -1,27 +1,10 @@
 pipeline {
-    agent any
-    tools {
-        maven "MAVEN3.9"
-        jdk "JDK17"
-    }
-
-   
-
+        agent any
         stage('Build') {
             steps{
                 sh 'echo "Build completed"'
             }
           
         }
-
-      
-
-        
-
-
-
-    }
-
-
 
 }
